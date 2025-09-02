@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="md:flex justify-between items-center px-10 py-4 bg-[#07080a] text-white hidden "
+    >
+      <h1 class="instru-italic font-bold flex text-[12px] items-center">
+        <i class="fa-solid fa-earth-africa"></i>
+        <span>Landio</span>
+      </h1>
+      <ul
+        class="custom-border rounded-3xl flex space-x-5 bg-[#07080a] text-white py-2 w-fit"
+      >
+        <li class="ml-5">Services</li>
+        <li>Process</li>
+        <li>Pricing</li>
+        <li>Blog</li>
+        <li class="mr-5">Contact</li>
+      </ul>
+      <button class="custom-border p-3 rounded-xl">Book a Call</button>
+    </nav>
+    <header class="w-full h-[110vh] overflow-hidden relative bg-black">
+      <video class="absolute z-20 w-full hidden lg:visible" autoplay loop>
+        <source src="hero.mp4" type="video/mp4" />
+      </video>
+      <div
+        class=" bg-black h-[110vh] w-full left-0 opacity-87 absolute top-0 z-30"
+      ></div>
+
+      <div
+        class="z-50 text-white flex flex-col items-center relative mt-16 md:space-y-4 space-y-1"
+      >
+        <div class="border py-6 px-7 w-fit rounded-2xl">
+          <i class="fa-solid fa-earth-africa"></i>
+        </div>
+        <h4 class="capitalize">New Gen Ai automation partner</h4>
+        <h1 class="head md:w-[60%] text-center leading-[5.5rem]">
+          Automate Smarter. Grow Faster.
+          <span class="instru-italic head-span">With AI</span>.
+        </h1>
+        <h4>AI Automation for Modern Businesses Made Simple</h4>
+        <button class="bg-black p-5 rounded-2xl md:mt-3">Book A Call</button>
+        <div class="flex space-x-14 justify-center mt-3 fa-icon opacity-50">
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="mt-20">
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section
+      class="bg-[#0e1117] text-white space pt-27 flex flex-col items-center pb-20"
+    >
+      <p class="border rounded-2xl p-2 about-head w-fit">
+        <span
+          ><i class="fa-solid fa-star mr-1.5" style="color: #fafafa"></i></span
+        >WE ANALYZE YOUR DATA
+      </p>
+      <h3 class="md:w-[48%] about-text text-center mt-6 text-gray-400">
+        We find what to
+        <span class="instru-italic text-gray-200">automate</span>, who your
+        users are & how AI can optimize your
+        <span class="instru-italic text-gray-200">workflow</span>. Best part is
+        we also build and launch
+        <span class="instru-italic text-gray-200">real solutions</span>.
+      </h3>
+      <p class="mt-4 text-gray-300 flex justify-center">
+        <span><i class="fa-solid fa-circle-user mr-3 fa-icon"></i></span
+        >Co-founder & AI Strategy Lead
+      </p>
+    </section>
+
+    <!-- benefits -->
+    <section class="text-white bg-[#10121a] pt-24 pb-15">
+      <p class="border rounded-2xl w-fit px-2 py-1 mx-auto">
+        <span><i class="fa-solid fa-star mr-2"></i></span>Benefits
+      </p>
+      <h1 class="benefit-head text-center mt-2">
+        Why Choose <span class="instru-italic">Us?</span>
+      </h1>
+      <h4 class="text-center mt-1 w-[90%] md:w-full ml-5 md:ml-0">
+        Everything you need to automate, optimize, and scale
+      </h4>
+      <div class="flex flex-col md:flex-row space-x-7 space-y-10 md:space-y-0 mt-12 md:pr-8 lg:pr-0">
+        <div
+          class="flex flex-col border custom-border rounded-2xl md:w-[30%] py-10 items-center ml-9"
+        >
+          <h2 class="flex flex-col items-center div-head">
+            <span><i class="fa-solid fa-clock mb-4 md:ml-6"></i></span>Real-Time
+            Intelligence
+          </h2>
+          <p class="text-[#7a7f87] w-[70%] text-center mt-3 div-p">
+            Access accurate, real-time data to drive smarter decisions
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col border custom-border rounded-2xl md:w-[30%] py-10 items-center ml-9"
+        >
+          <h2 class="flex flex-col items-center div-head">
+            <span><i class="fa-solid fa-clock mb-4"></i></span>Real-Time
+            Intelligence
+          </h2>
+          <p class="text-[#7a7f87] w-[70%] text-center mt-3 div-p">
+            Access accurate, real-time data to drive smarter decisions
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col border custom-border rounded-2xl md:w-[30%] w-[84%] py-10 items-center ml-9"
+        >
+          <h2 class="flex flex-col items-center div-head">
+            <span><i class="fa-solid fa-clock mb-4"></i></span>Real-Time
+            Intelligence
+          </h2>
+          <p class="text-[#7a7f87] w-[70%] text-center mt-3 div-p">
+            Access accurate, real-time data to drive smarter decisions
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+    <section class="bg-[#04070d] text-white items-center flex flex-col pt-24 pb-20">
+      <p class="border custom-border w-fit p-1.5 rounded-2xl">
+        <span><i class="fa-solid fa-box mr-2"></i></span>FEATURES
+      </p>
+      <h1 class="benefit-head text-center">
+        All features in <span class="instru-italic">one place</span>
+      </h1>
+      <p class="text-center">Everything you need to automate operations, boost productivity</p>
+
+      <div class="flex flex-col md:flex-row space-x-10 mx-17 mt-12 space-y-10 md:space-y-0">
+        <div
+          class="border custom-border text-center flex flex-col items-center rounded-2xl md:w-[40%] w-[100%] pb-13" 
+        >
+          <div
+            class="border custom-border rounded-xl bg-[#12151f] p-2 flex items-center mt-20 w-fit"
+          >
+            <p class="space-x-5">
+              <span
+                ><i class="fa-solid fa-arrow-trend-up features-icon"></i
+              ></span>
+              <span
+                ><i class="fa-solid fa-head-side-cough features-icon"></i
+              ></span>
+            </p>
+          </div>
+          <h1 class="div-head mt-14 mx-4 md:mx-0">Workflow Automation</h1>
+          <p class="text-[#7a7f87] w-[80%] mt-3">
+            Automate complex business processes to boost speed, clarity, and
+            efficiency.
+          </p>
+        </div>
+
+        <div
+          class="border custom-border md:w-[40%] w-[100%] text-center flex flex-col items-center rounded-2xl pb-13"
+        >
+          <div
+            class="border custom-border rounded-xl bg-[#12151f] p-2 flex items-center w-fit mt-20"
+          >
+            <p class="space-x-5">
+              <span><i class="fa-solid fa-sliders features-icon"></i></span>
+              <span><i class="fa-solid fa-gear features-icon"></i></span>
+            </p>
+          </div>
+          <h1 class="div-head mt-14">Custom AI Solutions</h1>
+          <p class="text-[#7a7f87] w-[75%] mt-3">
+            Build tailored AI systems that align with your business goals and
+            challenges.
+          </p>
+        </div>
+
+        <div
+          class="border custom-border md:w-[40%] text-center flex flex-col items-center rounded-2xl pb-13"
+        >
+          <div
+            class="border custom-border rounded-xl bg-[#12151f] p-2 flex items-center w-fit mt-20"
+          >
+            <p class="space-x-5">
+              <span><i class="fa-solid fa-robot features-icon"></i></span>
+              <span><i class="fa-solid fa-star features-icon"></i></span>
+            </p>
+          </div>
+          <h1 class="div-head mt-14">AI Assistant</h1>
+          <p class="text-[#7a7f87] w-[85%] mt-3">
+            Deploy intelligent virtual agents to streamline tasks.
+          </p>
+        </div>
+      </div>
+
+     <div class="flex flex-col md:flex-row space-x-10 mx-17 mt-12 space-y-10 md:space-y-0">
+        <div
+          class="border custom-border text-center flex flex-col items-center rounded-2xl md:w-[40%] w-[100%] pb-13" 
+        >
+          <div
+            class="border custom-border rounded-xl bg-[#12151f] p-2 flex items-center mt-20 w-fit"
+          >
+            <p class="space-x-5">
+              <span
+                ><i class="fa-solid fa-arrow-trend-up features-icon"></i
+              ></span>
+              <span
+                ><i class="fa-solid fa-head-side-cough features-icon"></i
+              ></span>
+            </p>
+          </div>
+          <h1 class="div-head mt-14 mx-4 md:mx-0">Workflow Automation</h1>
+          <p class="text-[#7a7f87] w-[80%] mt-3">
+            Automate complex business processes to boost speed, clarity, and
+            efficiency.
+          </p>
+        </div>
+
+        <div
+          class="border custom-border md:w-[40%] w-[100%] text-center flex flex-col items-center rounded-2xl pb-13"
+        >
+          <div
+            class="border custom-border rounded-xl bg-[#12151f] p-2 flex items-center w-fit mt-20"
+          >
+            <p class="space-x-5">
+              <span><i class="fa-solid fa-sliders features-icon"></i></span>
+              <span><i class="fa-solid fa-gear features-icon"></i></span>
+            </p>
+          </div>
+          <h1 class="div-head mt-14">Custom AI Solutions</h1>
+          <p class="text-[#7a7f87] w-[75%] mt-3">
+            Build tailored AI systems that align with your business goals and
+            challenges.
+          </p>
+        </div>
+
+        <div
+          class="border custom-border md:w-[40%] text-center flex flex-col items-center rounded-2xl pb-13"
+        >
+          <div
+            class="border custom-border rounded-xl bg-[#12151f] p-2 flex items-center w-fit mt-20"
+          >
+            <p class="space-x-5">
+              <span><i class="fa-solid fa-robot features-icon"></i></span>
+              <span><i class="fa-solid fa-star features-icon"></i></span>
+            </p>
+          </div>
+          <h1 class="div-head mt-14">AI Assistant</h1>
+          <p class="text-[#7a7f87] w-[85%] mt-3">
+            Deploy intelligent virtual agents to streamline tasks.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="bg-[#10121a] text-white flex flex-col items-center pt-20 pb-20">
+      <p class="border custom-border rounded-2xl w-fit px-2 py-1">
+        <span><i class="fa-solid fa-heart mr-2"></i></span>REVIEWS
+      </p>
+      <h1 class="benefit-head text-center">
+        Trusted by <span class="instru-italic">Visionaries</span>
+      </h1>
+      <p class="ml-1 text-center md:ml-0">Hear from real users who achieved success with our automation</p>
+
+
+      
+        <div class="flex mt-7">
+          <div class="flex border custom-border p-4 rounded-2xl">
+            <img src="Client 1.png" alt="Client 1" class="w-[100px]" />
+
+            <div class="flex flex-col ml-5"><h1 class="client-head">Daniel Kim</h1>
+            <p class="text-[#676b73]">
+              “Truly impressive. The AI assistant is fast, accurate, and blends
+              into our daily ops without friction.”
+            </p>
+          <h1 class="client-head mt-7">Priya Mehra</h1>
+          <p class="client-text text-[#676b73]">“Game-changer. Automation flows run flawlessly. Our team now focuses only on what really matters.”</p>
+          <h1 class="client-head mt-7">Elena Rodriguez</h1>
+          <p class="text-[#676b73]">“Smooth setup. Their system replaced three tools. We saw improvements in just the first week.”</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+     <section class="bg-[#04070d] text-white flex flex-col items-center pt-20 pb-20">
+      <p class="border custom-border rounded-2xl w-fit px-2 py-1">
+        <span><i class="fa-solid fa-tag mr-2"></i></span>PRICING
+      </p>
+      <h1 class="benefit-head text-center">
+        Flexible Plans for <span class="instru-italic">Everyone</span>
+      </h1>
+      <p class="ml-1 md:ml-0 text-center">Choose a plan that fits your goals and scale as you grow</p>
+
+      <div class="flex bg-[#10131c] w-fit pl-1 pr-7 py-1 rounded-xl items-center mt-7">
+      <p>
+        <button class="bg-[#04070d] px-2 py-1 mr-6 rounded-xl">Monthly</button>
+        <p class="mr-2">Yearly</p>
+        <button class="bg-[#04070d] rounded-2xl px-2.5">Save 20%</button>
+      </p>
+      </div>
+
+      <div class="flex flex-col lg:flex-row space-y-10 space-x-7 mt-10 ml-5 md:ml-o">
+        <div class="border custom-border rounded-xl pt-5 pl-5 pb-5 space-y-4 pr-10">
+          <h1 class="amount-head">Starter</h1>
+          <h1><span class="amount">$50</span>/month</h1>
+          <p class="border custom-border text-center w-[300px]">Get Started</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>3 Automated Workflows</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>Basic AI Assistant Access</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>Email + Slack Integration</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>Monthly Performance Reports</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>Email Support</p>
+        </div>
+
+        <div class="border custom-border rounded-xl pt-5 pl-7 pb-5 space-y-4 pr-10">
+          <h1 class="amount-head">Pro</h1>
+          <h1><span class="amount">$90</span>/month</h1>
+          <p class="border custom-border text-center w-[300px]">Get Started</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>10+ Automated Workflows</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>Advanced AI Assistant Features</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>Bi-Weekly Strategy Reviews</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>CRM + Marketing Tool Integrations</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>Priority Support</p>
+        </div>
+
+        <div class="border custom-border rounded-xl pt-5 pl-7 pb-5 space-y-4 pr-10 w-[93%] md:h-[92%]">
+          <h1 class="amount-head">Enterprise</h1>
+          <h1><span class="amount">Custom</span></h1>
+          <p class="border custom-border text-center w-[300px]">Get Started</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>Unlimited Custom Workflows</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>Dedicated AI Strategist</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>API & Private Integrations</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>Real-Time Performance Dashboards</p>
+          <p class="text-[#a9b0ba]"><span class="mr-3"><i class="fa-solid fa-check"></i></span>24/7 Premium Support + SLA</p>
+        </div>
+      </div>
+       <p class="border bg-[#13161f] mt-10 custom-border px-2 text-center">We donate 2% of your membership to pediatric wellbeing</p>
+     </section>
+     <!-- comparison -->
+      <section class="bg-[#11141a] text-white flex flex-col items-center pt-15 pb-20">
+        <p class="border rounded-2xl w-fit px-2 py-1"><span><i class="fa-solid fa-spinner mr-2"></i></span>COMPARISON</p>
+        <h1 class="benefit-head text-center">Why Choose Us <span class="instru-italic">Over Others</span></h1>
+        <p class="text-center">See how we compare against others in performance, growth</p>
+
+
+        <div class="flex flex-col md:flex-row space-x-15 pt-15 ml-13 md:ml-0 space-y-10 md:space-y-0">
+          <div class="border custom-border py-4 pl-5 md:pr-50 pr-9 rounded-xl md:w-[50%]">
+           <p class="instru-italic"><span><i class="fa-solid fa-earth-africa"></i></span>Landio</p>
+           <ul class="mt-4 space-y-2">
+            <li><span class="mr-3"><i class="fa-solid fa-check"></i></span>Fast setup with ready AI workflows</li>
+            <li><span class="mr-3"><i class="fa-solid fa-check"></i></span>Built to grow and adapt with you</li>
+            <li><span class="mr-3"><i class="fa-solid fa-check"></i></span>Real-time, AI-powered analytics</li>
+            <li><span class="mr-3"><i class="fa-solid fa-check"></i></span>Automates tasks, reducing overhead</li>
+            <li><span class="mr-3"><i class="fa-solid fa-check"></i></span>Expert support + AI guidance</li>
+           </ul>
+          </div>
+
+           <div class="border custom-border py-4 pl-5 md:pr-50 pr-9 w-[83%] md:w-[50%] rounded-xl">
+           <p class="instru-italic"><span><i class="fa-solid fa-layer-group"></i></span>Others</p>
+           <ul class="mt-4 space-y-2">
+            <li><span class="mr-3"><i class="fa-solid fa-x"></i></span>Slower execution and manual setup</li>
+            <li><span class="mr-3"><i class="fa-solid fa-x"></i></span>Requires manual updates as you scale</li>
+            <li><span class="mr-3"><i class="fa-solid fa-x"></i></span>Limited or delayed reporting</li>
+            <li><span class="mr-3"><i class="fa-solid fa-x"></i></span>Higher labor costs, less automation</li>
+            <li><span class="mr-3"><i class="fa-solid fa-x"></i></span>Generic support or none at all</li>
+           </ul>
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+       <section class="bg-[#04070d] text-white flex flex-col items-center pt-15 pb-20">
+        <p class="flex items-center"><span><i class="fa-solid fa-minus mr-2"></i></span>Reach out anytime <span class="mt-1 ml-2"><i class="fa-solid fa-minus"></i></span></p>
+        <h1 class="benefit-head md:w-[50%] text-center mt-3">Ready to Automate Smarter? Let's <span class="instru-italic">Build Together</span></h1>
+        <p>Schedule a Call and Begin Automating</p>
+        <p class="border custom-border px-6 rounded-xl mt-6 py-1">Book A Call <span><i class="fa-solid fa-arrow-up ml-1"></i></span></p>
+        <p class="mt-10">landio@support.com</p>
+       </section>
+      <!-- footer -->
+       <footer class="bg-[#11141a] text-[#a7abb5] md:px-12 px-5 pt-14 pb-15">
+       <p class="instru-italic pb-7"><span><i class="fa-solid fa-earth-africa"></i></span>Landio</p>
+       <ul class="flex  flex-col md:flex-row space-y-4 md:space-y-0 space-x-10 pb-6">
+        <li>Services</li>
+        <li>Pricing</li>
+        <li>Contact</li>
+        <li>Blog</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+       </ul>
+       <hr class="opacity-40 pb-6">
+       <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-5">
+       <p>© 2025 Landio Template</p>
+       <p class="lg:ml-193 md:ml-100">Made By Samuel</p>
+       <p>landio@support.com</p>
+       </div>
+       </footer>
+  </body>
+</html>
